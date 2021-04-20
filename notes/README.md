@@ -15,3 +15,9 @@
 ## Possible model extension
 
 1. Quantify the **links between the different clusters** and **reduce the graph to its clusters** with the relevant algorithm.
+
+## Research story
+
+1. An appropriate **title** could be *What if we actually read patents? An alternative to the IPC/PC classification using a NLP approach*.
+1. Explain that **the paper is a new recombination of well established components**: (1) citation links (2) text similarity using TF-IDF (3) community detection algorithm in weighted networks (Louvain/Leiden methods).
+1. If the robustness checks unveil some variations while modifying the parameters, then the different configurations of the model are all useful - they tell a different story.
