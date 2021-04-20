@@ -1,5 +1,9 @@
 # Research plan
 
+## Research code
+
+* **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies with PASTAT + Patent text. 
+* An inspiring example is [stanza](https://arxiv.org/pdf/2003.07082.pdf).
 
 ## Robustness checks to perform to validate the model
 
