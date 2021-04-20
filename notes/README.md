@@ -7,6 +7,12 @@
 
 ## Data processing 
 
+1. Download the full-text data from the EPO;
+2. Select a technological field (using the CPC or the IPC classes);
+3. Retrieve the corresponding data from PATSTAT for a given set of variables;
+4. Retrieve the full-text data of the patents selcted in step 3;
+5. Run the NLP model to get the text-based technological classification.
+
 ## Modelling
 
 ## Robustness checks to perform to validate the model
