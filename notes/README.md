@@ -5,8 +5,11 @@
 * **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies with PASTAT + Patent text. 
 * An inspiring example is [stanza](https://arxiv.org/pdf/2003.07082.pdf).
 
-## Robustness checks to perform to validate the model
+## Data processing 
 
+## Modelling
+
+## Robustness checks to perform to validate the model
 
 1. **Quantify the selection** bias induced when selecting subsamples of patents (EP patents, granted patents, top patents). What happens if we relax one of these constraints? Compare to random selection. Do clusters and clustering scores remain the same?
 1. **Impact of modelling choices**. Does the result change if the model takes into account only text *similarity* and does not consider *citations*? What about the different types of citations (direct, BC, CC, LC)?
@@ -14,7 +17,6 @@
 1. What if we **change the text source**, using the first page in spite of the claims? Do the clusters remain the same?
 1. Does the result change while using different **clustering methods**?
 1. Show the results for at least 3 different technological domains (CPC/IPC codes).
-
 
 ## Possible model extension
 
