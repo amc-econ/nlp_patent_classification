@@ -2,7 +2,7 @@
 
 ## Research code
 
-* **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies with PASTAT + Patent text. 
+* **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies using PASTAT data + Patent text data. 
 * An inspiring example is [stanza](https://arxiv.org/pdf/2003.07082.pdf).
 
 ## Data processing 
@@ -12,8 +12,6 @@
 3. Retrieve the corresponding data from PATSTAT for a given set of variables;
 4. Retrieve the full-text data of the patents selcted in step 3;
 5. Run the NLP model to get the text-based technological classification.
-
-## Modelling
 
 ## Robustness checks to perform to validate the model
 
