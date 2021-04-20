@@ -1,4 +1,4 @@
-# What if we actually read patents? An alternative to the IPC/PC classification using a NLP approach
+# Research plan
 
 
 ## Robustness checks to perform to validate the model
