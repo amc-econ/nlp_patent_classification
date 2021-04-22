@@ -26,6 +26,7 @@
 ## Possible model extension
 
 1. Quantify the **links between the different clusters** and **reduce the graph to its clusters** with the relevant algorithm.
+2. Expend to USPTO patents
 
 ## Research story
 
