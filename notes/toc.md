@@ -3,8 +3,8 @@
 1. Introduction 
 2. Literature review
 3. Data
-    3.1. Patent data
-    3.2. Text data
+    1. Patent data
+    2. Text data
 4. Empirical Framework
     1. Model description
     2. Validation metrics
@@ -21,9 +21,9 @@
         7. Role of first time applicants
         8. Exploiting variation in timing across treated regions
 7. Conclusions
-* Credit author statement 
-* Declaration of competition interest
-* Acknowledgements
-* Supplementary materials
-* Appendix
-* References
+8. Credit author statement 
+9. Declaration of competition interest
+10. Acknowledgements
+11. Supplementary materials
+12. Appendix
+13. References
