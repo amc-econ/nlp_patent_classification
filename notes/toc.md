@@ -21,9 +21,9 @@
         7. Role of first time applicants
         8. Exploiting variation in timing across treated regions
 7. Conclusions
-Credit author statement 
-Declaration of competition interest
-Acknowledgements
-Supplementary materials
-Appendix
-References
+* Credit author statement 
+* Declaration of competition interest
+* Acknowledgements
+* Supplementary materials
+* Appendix
+* References
