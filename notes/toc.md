@@ -1,13 +1,13 @@
 # Table of contents
 
 1. Introduction 
-2. Institutional background
+2. Literature review
 3. Data
-    1. Definition of treatment and control groups
-    2. Patent data
+    3.1. Patent data
+    3.2. Text data
 4. Empirical Framework
-    1. Difference-in-difference estimation
-    2. Identification
+    1. Model description
+    2. Validation metrics
 5. Results
 6. Robustness checks
     1. Relative importance of Applied Research Universities vs Traditional Universities
