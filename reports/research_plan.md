@@ -1,18 +1,5 @@
 # Research plan
 
-## Research code
-
-* **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies using PASTAT data + Patent text data. 
-* An inspiring example is [stanza](https://arxiv.org/pdf/2003.07082.pdf).
-
-## Data processing 
-
-1. Download the full-text data from the EPO;
-2. Select a technological field (using the CPC or the IPC classes);
-3. Retrieve the corresponding data from PATSTAT for a given set of variables;
-4. Retrieve the full-text data of the patents selcted in step 3;
-5. Run the NLP model to get the text-based technological classification.
-
 ## Robustness checks to perform to validate the model
 
 1. **Quantify the selection** bias induced when selecting subsamples of patents (EP patents, granted patents, top patents). What happens if we relax one of these constraints? Compare to random selection. Do clusters and clustering scores remain the same.
@@ -33,3 +20,16 @@
 1. An appropriate **title** could be *What if we actually read patents? An alternative to the IPC/PC classification using a NLP approach*.
 1. **The paper is a new recombination of well established components**: (1) citation links (2) text similarity using TF-IDF (3) community detection algorithm in weighted networks (Louvain/Leiden methods).
 1. If the robustness checks unveil some variations while modifying the parameters, then the different configurations of the model are all useful: they tell a different story.
+
+## Research code
+
+* **Aim:** create a simple Python library that anyone can reuse the NLP algorithm to categorise technologies using PASTAT data + Patent text data. 
+* An inspiring example is [stanza](https://arxiv.org/pdf/2003.07082.pdf).
+
+## Data processing 
+
+1. Download the full-text data from the EPO;
+2. Select a technological field (using the CPC or the IPC classes);
+3. Retrieve the corresponding data from PATSTAT for a given set of variables;
+4. Retrieve the full-text data of the patents selcted in step 3;
+5. Run the NLP model to get the text-based technological classification.
